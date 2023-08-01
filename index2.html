@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>REGISRTION FORM</h1>
+   
+</head>
+<body>
+    <form action="https://formspree.io/f/xjvqgrvj" method="post">
+       <label for="name">Name</label>
+       <input type="text" name="name" requried> 
+       <label for="email">Email</label>  
+       <input type="email" name="email" requried> 
+       <label for="Password">Password</label>  
+       <input type="Password" name="Password" requried> 
+       <label for="phonenumber">phonenumber</label>  
+       <input type="tel" name="tel" requried> 
+       <label for="Gender">Gender</label> 
+       <select id="Gender">
+       <option value="male">male</option>
+       <option value="female">female</option>
+       <option value="others">others</option>
+       </select>
+       <label for="Zipcode">Zipcode</label> 
+       <input type="number" name="Zipcode" requried>
+       <label for="About">About</label> 
+       <input type="textarea" name="textarea" requried>
+       <div id="submit">
+        <input type="submit" value="Register" requried>
+       </div>  
+      </form>
+</body>
+<style>
+    label{
+        display: block;
+    
+    }
+    form{
+        text-align: center;
+        background-color: rgb(174, 206, 204);
+        margin: 0px 400px 0px 400px;
+    }
+    h1{
+        text-align: center;
+    }
+    #submit{
+        padding: 10px;
+    }
+    input[type=submit]{
+        background-color:beige;
+    }
+    input[type=submit]:hover{
+        background-color:rgb(163, 113, 151);
+    }
+    </style>
+</html>
